@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ShakeViewController">
+            <connections>
+                <outlet property="bottomLoadView" destination="mUy-3F-h4V" id="pdV-oW-Gx0"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="yaoImage2" destination="sTu-CA-EZk" id="QuE-mk-P6F"/>
+                <outlet property="yaoImageView1" destination="ytK-Rs-qnb" id="gkF-T1-pCy"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yaoyiyaodi" translatesAutoresizingMaskIntoConstraints="NO" id="hkT-e1-v1h" userLabel="yaoyiyaodi">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <animations/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yaoyiyao1" translatesAutoresizingMaskIntoConstraints="NO" id="ytK-Rs-qnb" userLabel="Yao Image View1">
+                    <rect key="frame" x="182" y="50" width="235" height="160"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="235" id="8Yy-WZ-TmR"/>
+                        <constraint firstAttribute="height" constant="160" id="RbL-P8-64y"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yaoyiyao2" translatesAutoresizingMaskIntoConstraints="NO" id="sTu-CA-EZk" userLabel="Yao Image View2">
+                    <rect key="frame" x="182" y="210" width="235" height="160"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="235" id="vYi-OC-q4X"/>
+                        <constraint firstAttribute="height" constant="160" id="yfO-Ow-79I"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mUy-3F-h4V" userLabel="Bottom Load View">
+                    <rect key="frame" x="0.0" y="370" width="600" height="230"/>
+                    <subviews>
+                        <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="Y76-e8-JFq">
+                            <rect key="frame" x="218" y="105" width="20" height="20"/>
+                            <animations/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="20" id="MYi-9b-CR1"/>
+                                <constraint firstAttribute="width" constant="20" id="OWf-UJ-RI8"/>
+                            </constraints>
+                        </activityIndicatorView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="数据加载中......" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5CB-6O-4ag">
+                            <rect key="frame" x="243" y="105" width="113" height="20.5"/>
+                            <animations/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="5CB-6O-4ag" firstAttribute="centerY" secondItem="mUy-3F-h4V" secondAttribute="centerY" id="EiO-xZ-4Kl"/>
+                        <constraint firstItem="5CB-6O-4ag" firstAttribute="centerX" secondItem="mUy-3F-h4V" secondAttribute="centerX" id="RNE-tS-NTW"/>
+                        <constraint firstItem="Y76-e8-JFq" firstAttribute="centerY" secondItem="mUy-3F-h4V" secondAttribute="centerY" id="fi0-ia-ecN"/>
+                        <constraint firstItem="5CB-6O-4ag" firstAttribute="leading" secondItem="Y76-e8-JFq" secondAttribute="trailing" constant="5" id="jhW-hu-qmr"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="mUy-3F-h4V" secondAttribute="trailing" id="0GN-tZ-vpt"/>
+                <constraint firstAttribute="bottom" secondItem="mUy-3F-h4V" secondAttribute="bottom" id="2es-oe-tLs"/>
+                <constraint firstItem="mUy-3F-h4V" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="OFy-4M-LhO"/>
+                <constraint firstItem="hkT-e1-v1h" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="RoY-HG-4p3"/>
+                <constraint firstItem="mUy-3F-h4V" firstAttribute="top" secondItem="sTu-CA-EZk" secondAttribute="bottom" id="VqV-M7-Qgd"/>
+                <constraint firstAttribute="trailing" secondItem="hkT-e1-v1h" secondAttribute="trailing" id="Yaf-9L-Rlp"/>
+                <constraint firstItem="sTu-CA-EZk" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="aew-fK-rMc"/>
+                <constraint firstAttribute="bottom" secondItem="hkT-e1-v1h" secondAttribute="bottom" id="be2-4h-TDW"/>
+                <constraint firstItem="ytK-Rs-qnb" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="50" id="jUW-Od-pnh"/>
+                <constraint firstItem="sTu-CA-EZk" firstAttribute="top" secondItem="ytK-Rs-qnb" secondAttribute="bottom" id="kze-Ji-xUV"/>
+                <constraint firstItem="hkT-e1-v1h" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="pCi-rB-Vlh"/>
+                <constraint firstItem="ytK-Rs-qnb" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="wzR-Z4-d0i"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="yaoyiyao1" width="235" height="160"/>
+        <image name="yaoyiyao2" width="235" height="160"/>
+        <image name="yaoyiyaodi" width="320" height="504"/>
+    </resources>
+</document>

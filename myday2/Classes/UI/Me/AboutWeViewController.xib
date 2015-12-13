@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AboutWeViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="aboat_detail" translatesAutoresizingMaskIntoConstraints="NO" id="rwm-P4-h3C" userLabel="about_detail">
+                    <rect key="frame" x="157" y="117" width="285" height="241"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="285" id="hkA-Dc-NzS"/>
+                        <constraint firstAttribute="height" constant="241" id="rHD-hk-Psw"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="店铺合作: partner@xiaorizi.me" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dwc-vB-YrC">
+                    <rect key="frame" x="184.5" y="549.5" width="231" height="20.5"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="作者姓名: 维尼的小熊" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DDD-kP-e0p">
+                    <rect key="frame" x="219" y="519" width="162.5" height="20.5"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="版本:1.0.1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mo2-jl-LsX">
+                    <rect key="frame" x="0.0" y="490" width="600" height="20.5"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="7LF-aX-T7i" userLabel="logo">
+                    <rect key="frame" x="249" y="10" width="102" height="99"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="99" id="4PD-Qr-KPf"/>
+                        <constraint firstAttribute="width" constant="102" id="TCw-3r-d3q"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Mo2-jl-LsX" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="4MY-j2-sIv"/>
+                <constraint firstItem="7LF-aX-T7i" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Af7-a9-gA3"/>
+                <constraint firstAttribute="trailing" secondItem="Mo2-jl-LsX" secondAttribute="trailing" id="AlI-Vw-tij"/>
+                <constraint firstItem="DDD-kP-e0p" firstAttribute="top" secondItem="Mo2-jl-LsX" secondAttribute="bottom" constant="8" id="DDW-Br-6tE"/>
+                <constraint firstItem="dwc-vB-YrC" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ERF-Sm-JuM"/>
+                <constraint firstItem="rwm-P4-h3C" firstAttribute="top" secondItem="7LF-aX-T7i" secondAttribute="bottom" constant="8" id="RJK-3y-i71"/>
+                <constraint firstItem="rwm-P4-h3C" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="U4y-Cx-4tw"/>
+                <constraint firstAttribute="bottom" secondItem="dwc-vB-YrC" secondAttribute="bottom" constant="30" id="hZe-cX-GEw"/>
+                <constraint firstItem="dwc-vB-YrC" firstAttribute="top" secondItem="DDD-kP-e0p" secondAttribute="bottom" constant="10" id="jF0-rH-H5n"/>
+                <constraint firstItem="7LF-aX-T7i" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="10" id="qBd-ip-GCQ"/>
+                <constraint firstItem="Mo2-jl-LsX" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="ykQ-tL-rnY"/>
+                <constraint firstItem="DDD-kP-e0p" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="zS2-dz-UWf"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="aboat_detail" width="285" height="241"/>
+        <image name="logo" width="102" height="99"/>
+    </resources>
+</document>

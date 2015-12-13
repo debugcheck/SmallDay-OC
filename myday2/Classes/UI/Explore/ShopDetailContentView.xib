@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" userLabel="Shop Detail Content View" customClass="ShopDetailContentView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="menpai1" translatesAutoresizingMaskIntoConstraints="NO" id="msO-t9-Q5P" userLabel="menpai1">
+                    <rect key="frame" x="167" y="10" width="40" height="23"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="23" id="Kzk-4V-MnD"/>
+                        <constraint firstAttribute="width" constant="40" id="MzI-Zn-s9V"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="menpai2" translatesAutoresizingMaskIntoConstraints="NO" id="CWZ-xf-mQ6" userLabel="menpai2">
+                    <rect key="frame" x="67" y="33" width="240" height="112"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="240" id="3tT-dw-fko"/>
+                        <constraint firstAttribute="height" constant="112" id="ExG-Rh-19Y"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="menpai3" translatesAutoresizingMaskIntoConstraints="NO" id="Ahy-qH-eIc" userLabel="menpai3">
+                    <rect key="frame" x="126" y="103" width="123" height="36"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="123" id="7hU-GM-Ygz"/>
+                        <constraint firstAttribute="height" constant="36" id="Hjd-ir-HK1"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="维尼的小熊 " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wZS-nl-4wY" userLabel="Shop Name">
+                    <rect key="frame" x="70" y="43" width="235" height="55"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="| 营业时间 |" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z93-ag-3et" userLabel="| 营业时间 |">
+                    <rect key="frame" x="143" y="165" width="87.5" height="20.5"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="| 电话 |" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h6d-tx-70L" userLabel="| 电话 |">
+                    <rect key="frame" x="160" y="246" width="53.5" height="20.5"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="| 地址 |" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CIC-RM-bPn" userLabel="| 地址 |">
+                    <rect key="frame" x="160" y="397" width="53.5" height="20.5"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="每天" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vOq-6n-O8F" userLabel="每天">
+                    <rect key="frame" x="170" y="195" width="34" height="20.5"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="13888888888" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MTc-R4-dFm">
+                    <rect key="frame" x="131.5" y="276" width="112.5" height="20.5"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ONS-an-yE7" userLabel="Button Phone">
+                    <rect key="frame" x="157" y="307" width="60" height="60"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="2ww-la-2zf"/>
+                        <constraint firstAttribute="width" constant="60" id="yzD-SX-fFf"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="call"/>
+                    <connections>
+                        <action selector="callBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="89y-We-Ajd"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VRV-vc-nHT">
+                    <rect key="frame" x="30" y="427" width="315" height="20.5"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W0F-m3-mqh">
+                    <rect key="frame" x="278" y="547" width="87" height="30"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="EY4-8M-pEp"/>
+                        <constraint firstAttribute="width" constant="87" id="TdR-fq-7ag"/>
+                    </constraints>
+                    <state key="normal" title="我要纠错">
+                        <color key="titleColor" red="1" green="0.65676000950000002" blue="0.106388846" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HuH-Id-PNw">
+                    <rect key="frame" x="157" y="468" width="60" height="60"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="l8u-GA-GEn"/>
+                        <constraint firstAttribute="height" constant="60" id="zQO-cw-2oj"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="map"/>
+                    <connections>
+                        <action selector="mapBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="gIr-LI-jv3"/>
+                    </connections>
+                </button>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="MTc-R4-dFm" firstAttribute="top" secondItem="h6d-tx-70L" secondAttribute="bottom" constant="10" id="0kJ-E2-6AV"/>
+                <constraint firstItem="ONS-an-yE7" firstAttribute="top" secondItem="MTc-R4-dFm" secondAttribute="bottom" constant="10" id="24r-qh-6hv"/>
+                <constraint firstItem="msO-t9-Q5P" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="2gG-wW-rBT"/>
+                <constraint firstItem="CWZ-xf-mQ6" firstAttribute="top" secondItem="msO-t9-Q5P" secondAttribute="bottom" id="7ME-XV-UkZ"/>
+                <constraint firstItem="CIC-RM-bPn" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="9x8-bb-LKg"/>
+                <constraint firstItem="VRV-vc-nHT" firstAttribute="top" secondItem="CIC-RM-bPn" secondAttribute="bottom" constant="10" id="C6j-ig-mSd"/>
+                <constraint firstItem="VRV-vc-nHT" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="30" id="DgM-zz-0wW"/>
+                <constraint firstItem="Ahy-qH-eIc" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="H1n-03-q5V"/>
+                <constraint firstItem="z93-ag-3et" firstAttribute="top" secondItem="CWZ-xf-mQ6" secondAttribute="bottom" constant="20" id="Izb-Kq-Mmu"/>
+                <constraint firstItem="W0F-m3-mqh" firstAttribute="top" secondItem="VRV-vc-nHT" secondAttribute="bottom" constant="100" id="JWk-1O-R7J"/>
+                <constraint firstItem="Ahy-qH-eIc" firstAttribute="top" secondItem="CWZ-xf-mQ6" secondAttribute="bottom" constant="-42" id="Nkj-JI-aqc"/>
+                <constraint firstItem="vOq-6n-O8F" firstAttribute="top" secondItem="z93-ag-3et" secondAttribute="bottom" constant="10" id="SXr-Yg-aSa"/>
+                <constraint firstItem="wZS-nl-4wY" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="70" id="Thf-uh-xzP"/>
+                <constraint firstItem="z93-ag-3et" firstAttribute="centerX" secondItem="CWZ-xf-mQ6" secondAttribute="centerX" id="W7J-8h-H9r"/>
+                <constraint firstItem="HuH-Id-PNw" firstAttribute="top" secondItem="VRV-vc-nHT" secondAttribute="bottom" constant="20" id="WlX-Tz-ZZa"/>
+                <constraint firstItem="HuH-Id-PNw" firstAttribute="top" secondItem="VRV-vc-nHT" secondAttribute="bottom" constant="20" id="ZuA-HM-UHQ"/>
+                <constraint firstItem="VRV-vc-nHT" firstAttribute="top" secondItem="CIC-RM-bPn" secondAttribute="bottom" constant="10" id="b7A-36-0ox"/>
+                <constraint firstAttribute="trailing" secondItem="W0F-m3-mqh" secondAttribute="trailing" constant="10" id="eP1-CJ-wSd"/>
+                <constraint firstItem="h6d-tx-70L" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="gCR-U4-Cbi"/>
+                <constraint firstItem="ONS-an-yE7" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="h0J-Pm-XvD"/>
+                <constraint firstAttribute="trailing" secondItem="VRV-vc-nHT" secondAttribute="trailing" constant="30" id="jNd-Wa-Ajm"/>
+                <constraint firstItem="MTc-R4-dFm" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="jqW-Iw-WyF"/>
+                <constraint firstAttribute="trailing" secondItem="wZS-nl-4wY" secondAttribute="trailing" constant="70" id="kBE-FQ-yso"/>
+                <constraint firstItem="HuH-Id-PNw" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="kXZ-pz-FPn"/>
+                <constraint firstItem="msO-t9-Q5P" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="l0p-fj-CdX"/>
+                <constraint firstItem="CIC-RM-bPn" firstAttribute="top" secondItem="ONS-an-yE7" secondAttribute="bottom" constant="30" id="nfb-ck-1wO"/>
+                <constraint firstItem="wZS-nl-4wY" firstAttribute="top" secondItem="msO-t9-Q5P" secondAttribute="bottom" constant="10" id="oZM-e3-mBf"/>
+                <constraint firstItem="CWZ-xf-mQ6" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="onv-Xs-2at"/>
+                <constraint firstItem="Ahy-qH-eIc" firstAttribute="top" secondItem="wZS-nl-4wY" secondAttribute="bottom" constant="5" id="oss-Yx-hgb"/>
+                <constraint firstItem="vOq-6n-O8F" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="uop-Oa-YUS"/>
+                <constraint firstItem="h6d-tx-70L" firstAttribute="top" secondItem="vOq-6n-O8F" secondAttribute="bottom" constant="30" id="wCw-TQ-fUP"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="addressLabel" destination="VRV-vc-nHT" id="aQ4-pp-Ky4"/>
+                <outlet property="correctBtn" destination="W0F-m3-mqh" id="mcz-S5-ybC"/>
+                <outlet property="phoneNumberLabel" destination="MTc-R4-dFm" id="BLt-J7-VhC"/>
+                <outlet property="shopName" destination="wZS-nl-4wY" id="ptr-Li-HGY"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="call" width="60" height="60"/>
+        <image name="map" width="60" height="60"/>
+        <image name="menpai1" width="40" height="23"/>
+        <image name="menpai2" width="300" height="112"/>
+        <image name="menpai3" width="123" height="36"/>
+    </resources>
+</document>
